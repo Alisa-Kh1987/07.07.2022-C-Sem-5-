@@ -1,0 +1,15 @@
+C:\Users\Алиса\Desktop\07.07.2022 C#\bin\Debug\net6.0\07.07.2022 C#.exe
+C:\Users\Алиса\Desktop\07.07.2022 C#\bin\Debug\net6.0\07.07.2022 C#.deps.json
+C:\Users\Алиса\Desktop\07.07.2022 C#\bin\Debug\net6.0\07.07.2022 C#.runtimeconfig.json
+C:\Users\Алиса\Desktop\07.07.2022 C#\bin\Debug\net6.0\07.07.2022 C#.dll
+C:\Users\Алиса\Desktop\07.07.2022 C#\bin\Debug\net6.0\07.07.2022 C#.pdb
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.csproj.AssemblyReference.cache
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.AssemblyInfoInputs.cache
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.AssemblyInfo.cs
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.csproj.CoreCompileInputs.cache
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.dll
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\refint\07.07.2022 C#.dll
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.pdb
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\07.07.2022 C#.genruntimeconfig.cache
+C:\Users\Алиса\Desktop\07.07.2022 C#\obj\Debug\net6.0\ref\07.07.2022 C#.dll
