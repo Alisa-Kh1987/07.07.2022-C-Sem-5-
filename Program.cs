@@ -268,3 +268,5 @@ for (int i = 1; i < myArray.Length; i=i+2)
 }
     
 Console.WriteLine(sum_even_index_nums);
+
+//1. find index_min 2. find index_max 3. find subtraction 4. print subtraction
