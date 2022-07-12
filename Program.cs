@@ -239,12 +239,12 @@ Console.WriteLine(sum_odd_index_nums);
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
-int[] CreateRandomArray(int size, int min, int max)
+int[] CreateRandomArray(int size, int start, int end)
 {
       int[] array = new int[size];
       for (int i = 0; i < size; i++)
          {
-            array[i] = new Random().Next(min, max + 1);
+            array[i] = new Random().Next(start, end + 1);
          }
       return array;
 }
@@ -279,7 +279,3 @@ for (int i = 0; i < myArray.Length; i++)
 Console.WriteLine(max);
 Console.WriteLine (min);
 Console.WriteLine(max-min);
-
-//1. find index_min 2. find index_max 3. find subtraction 4. print subtraction
-
-
