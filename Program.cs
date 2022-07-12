@@ -235,7 +235,7 @@ for (int i = 1; i < myArray.Length; i=i+2)
 }
     
 Console.WriteLine(sum_odd_index_nums);
-*/
+
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 
@@ -279,3 +279,4 @@ for (int i = 0; i < myArray.Length; i++)
 Console.WriteLine(max);
 Console.WriteLine (min);
 Console.WriteLine(max-min);
+*/
