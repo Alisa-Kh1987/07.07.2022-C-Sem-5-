@@ -201,6 +201,8 @@ Console.WriteLine(even_nums);
 
 
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
+[3, 7, 23, 12] -> 19
+[-4, -6, 89, 6] -> 0
 
 int[] CreateRandomArray(int size, int min, int max)
 {
@@ -225,14 +227,14 @@ void ShowArray(int[] array)
 int[] myArray = CreateRandomArray(10, -10, 20);
 ShowArray(myArray);
 
-int sum_even_index_nums = 0;
+int sum_odd_index_nums = 0;
 
 for (int i = 1; i < myArray.Length; i=i+2)
 {
-    sum_even_index_nums += myArray[i];
+    sum_odd_index_nums += myArray[i];
 }
     
-Console.WriteLine(sum_even_index_nums);
+Console.WriteLine(sum_odd_index_nums);
 */
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
@@ -257,16 +259,27 @@ void ShowArray(int[] array)
     Console.WriteLine();
 }
 
-int[] myArray = CreateRandomArray(15, 10, 25);
+int[] myArray = CreateRandomArray(15, 10, 99);
 ShowArray(myArray);
 
-int sum_even_index_nums = 0;
+int max = myArray[0];
+int min = myArray[0];
 
-for (int i = 1; i < myArray.Length; i=i+2)
+for (int i = 0; i < myArray.Length; i++)
 {
-    sum_even_index_nums += myArray[i];
+    if (myArray[i] >= max)
+    {max = myArray[i];}   
 }
-    
-Console.WriteLine(sum_even_index_nums);
+
+for (int i = 0; i < myArray.Length; i++)
+{
+    if (myArray[i] <= min)
+    {min = myArray[i];}
+}
+Console.WriteLine(max);
+Console.WriteLine (min);
+Console.WriteLine(max-min);
 
 //1. find index_min 2. find index_max 3. find subtraction 4. print subtraction
+
+
