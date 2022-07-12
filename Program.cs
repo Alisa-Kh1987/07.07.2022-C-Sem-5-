@@ -276,6 +276,7 @@ for (int i = 0; i < myArray.Length; i++)
     if (myArray[i] <= min)
     {min = myArray[i];}
 }
-
+Console.WriteLine(max);
+Console.WriteLine(min);
 Console.WriteLine(max-min);
 */
